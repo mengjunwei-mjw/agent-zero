@@ -6,6 +6,7 @@ ArtifactSourceType: Dockerfile
 ServiceBuildRegion: ap-southeast-1
 RepoName: mengjunwei-mjw/agent-zero
 RegionId: cn-hangzhou
+CustomParameters: ''
 DockerBuildArgs:
 - ArgumentValue: main
   ArgumentName: BRANCH
