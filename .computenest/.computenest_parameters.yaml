@@ -1,0 +1,14 @@
+AdvancedOptions: true
+RuntimeType: Container
+DockerFilePath: docker/run/Dockerfile
+ServiceType: private
+ArtifactSourceType: Dockerfile
+ServiceBuildRegion: ap-southeast-1
+RepoName: mengjunwei-mjw/agent-zero
+RegionId: cn-hangzhou
+DockerBuildArgs:
+- ArgumentValue: main
+  ArgumentName: BRANCH
+Owner: mengjunwei-mjw
+Branch: main
+Platform: github
